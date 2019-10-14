@@ -18,6 +18,12 @@ If you want to rename a branch while pointed to any branch, do:
 If you want to rename the current branch, you can do: 
     "git branch -m <newName>"
 
+---------------------------------------------------------------
+```
+Thanks MarioRicalde for the recover code !!
+
+https://gist.github.com/MarioRicalde/3970881
+```
 Oops! I accidentally deleted a local git branch, and I haven't pushed it to a remote server yet. The branch has several important commits, and it hasn't been merged with any other branches yet. How do I find the missing branch?
 
 ### 1. Create a list of all dangling or unreachable commits.
@@ -58,9 +64,4 @@ If you need more information on a commit, you can always use a more detailed log
 ```sh
 $ git checkout -b branch-name 9ae38fc
 Switched to a new branch 'branch-name'
-```
-```Thanks MarioRicalde for the recover code !!
-
-https://gist.github.com/MarioRicalde/3970881
-
 ```
